@@ -1,0 +1,44 @@
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.item-image img {
+  max-width: 100px;
+}
+
+.item-details {
+  margin-left: 15px;
+}
+
+.item-title {
+  font-size: 1.2em;
+}
+
+.item-price {
+  font-weight: bold;
+}
+
+.item-quantity {
+  margin-top: 5px;
+}
+
+.level-low {
+  color: red;
+}
+
+.level-medium {
+  color: orange;
+}
+
+.level-high {
+  color: green;
+}
